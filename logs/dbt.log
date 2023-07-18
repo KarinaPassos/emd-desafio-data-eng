@@ -1,0 +1,10 @@
+[0m11:32:23.161856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3F0BE4390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3F0BC7B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3F0BE4650>]}
+
+
+============================== 11:32:23.163866 | 08f0b1bb-9ab3-40f3-9e41-9a6c869eaa78 ==============================
+[0m11:32:23.163866 [info ] [MainThread]: Running with dbt=1.5.3
+[0m11:32:23.164863 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\tecna\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m11:32:23.165856 [info ] [MainThread]: A project called desafio already exists here.
+[0m11:32:23.166856 [debug] [MainThread]: Command `dbt init` succeeded at 11:32:23.166856 after 0.02 seconds
+[0m11:32:23.166856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3EA5E4A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3EA674F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3EA674E90>]}
+[0m11:32:23.167855 [debug] [MainThread]: Flushing usage events

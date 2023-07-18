@@ -1,0 +1,13 @@
+# profiles.yml
+
+desafio:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: postgres
+      dbname: postgres
+      schema: gps_data
